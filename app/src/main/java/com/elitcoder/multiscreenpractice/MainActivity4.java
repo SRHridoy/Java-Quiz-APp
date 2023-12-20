@@ -25,13 +25,13 @@ public class MainActivity4 extends AppCompatActivity {
         chk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(chk4.isChecked() && !(chk2.isChecked() || chk3.isChecked()|| chk1.isChecked())){
+                if(chk3.isChecked() && !(chk2.isChecked() || chk4.isChecked()|| chk1.isChecked())){
                     Toast.makeText(MainActivity4.this, "You got Right!", Toast.LENGTH_SHORT).show();
                     ans.setVisibility(View.VISIBLE);
                     next.setVisibility(View.VISIBLE);
                     score++;
 
-                }else if(chk3.isChecked() || chk2.isChecked()|| chk1.isChecked()){
+                }else if(chk4.isChecked() || chk2.isChecked()|| chk1.isChecked()){
                     Toast.makeText(MainActivity4.this, "Wrong!", Toast.LENGTH_SHORT).show();
                     ans.setVisibility(View.VISIBLE);
                     next.setVisibility(View.VISIBLE);

@@ -26,6 +26,7 @@ public class MainActivity7 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity7.this, MainActivity.class);
+                score=0;
                 startActivity(intent);
             }
         });

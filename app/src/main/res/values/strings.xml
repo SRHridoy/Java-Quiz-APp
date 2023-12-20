@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Java Quiz</string>
+    <string name="intro">Welcome to JAVA Quiz</string>
+    <string name="start">Start</string>
+    <string name="ques1">1.
+Number of primitive data types in Java are?
+    </string>
+    <string name="op11">6</string>
+    <string name="op12">7</string>
+    <string name="op13">8</string>
+    <string name="op14">9</string>
+    <string name="chk">Check Answer</string>
+    <string name="ans">There are 8 types of primitive data types- int, char, boolean, byte, long, float, short, double.</string>
+    <string name="next">Next</string>
+
+    <string name="ques2">2.
+What is the size of float and double in java?
+    </string>
+    <string name="op21">32 and 64</string>
+    <string name="op22">32 and 32</string>
+    <string name="op23">64 and 64</string>
+    <string name="op24">64 and 32</string>
+    <string name="ans2">The size of float and double in java is 32 and 64.</string>
+    <string name="ques3">
+3.
+Automatic type conversion is possible in which of the possible cases?
+    </string>
+    <string name="op31">Short to int</string>
+    <string name="op32">Byte to int</string>
+    <string name="op33">Int to long</string>
+    <string name="op34">Long to int</string>
+    <string name="ans3">Automatic type conversion is possible in Int to long.</string>
+    <string name="ques4">
+4.
+Select the valid statement.
+    </string>
+    <string name="op41">char[] ch = new char(5)</string>
+    <string name="op42">char[] ch = new char[5]</string>
+    <string name="op43">char[] ch = new char[]</string>
+    <string name="op44">char[] ch = new char()</string>
+    <string name="ans4">char[] ch = new char[5] is the correct syntax for declaring a character array.</string>
+    <string name="ques5">
+5.
+When an array is passed to a method, what does the method receive?
+    </string>
+    <string name="op51">The reference of the array</string>
+    <string name="op52">A copy of the array</string>
+    <string name="op53">Length of the array</string>
+    <string name="op54">Copy of the first element</string>
+    <string name="ans5">When an array is passed to a method, a reference of the array is received by the method.</string>
+    <string name="finish">Finish</string>
+    <string name="again">Test Again</string>
+</resources>
